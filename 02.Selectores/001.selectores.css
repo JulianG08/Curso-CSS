@@ -1,0 +1,57 @@
+/*
+Selector universal: Permite escoger a todos los elementos en el documento html
+*/
+
+*{
+    background-color: teal;
+}
+
+/*
+Esto es un comentario
+
+El selector de tipo: Estos seleccionan directamente a la etiqueta de html, este selector no es tan
+recomendado
+*/
+
+body{
+    font-family: 'Arial';
+}
+
+/*
+h2{
+    color: crimson;
+    font-size: 40px;
+}
+*/
+
+li{
+    color: slateblue;
+    font-size: 20px;
+}
+
+/*
+Selector de clase: Selecciona elementos por medio del nombre del valor en el atributo class
+*/
+
+.peliculas{
+    color: crimson;
+}
+
+.series{
+    font-size: 40px;
+}
+
+/*
+Selector de ID: Selecciona elementos por el nombre del valor del atributo id
+*/
+
+#spidermanNoWayHome{
+    font-size: 25px;
+    color: tomato;
+    text-decoration: underline;
+}
+
+#temporada3{
+    color: seagreen;
+    font-size: 14px;
+}
