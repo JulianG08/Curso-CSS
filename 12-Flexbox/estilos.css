@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px solid #000;
+    display: flex;
+    /*flex direction:row*/
+    /*row | row-reverse | column | column-reverse*/
+    /*flex-wrap: nowrap     no es necesario ponerlo pues es su valor por defecto*/
+    /*wrap | wrap-reverse       Lo que hacen es que lo elementos en vez de acomodarse sean del tamaño que se les asigno y si es necesario ocupan otras lineas*/
+
+    /*justify-content: ;
+    flex-start | flex-end  | center | space-between | space-around | space-evenly*/
+
+    /*align-items: stretch      (por defecto*/
+    /*flex-start | flex-end | center | baseline*/
+
+    /*align-content: normal (por defecto)*/
+    /*flex-start | flex-end, center | space-between | space-around | space-evenly*/
+}
+
+.element {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    /*order: 0 (por defecto
+    Cambia la posición de loe elementos mediante números enteros*/
+
+    /*flex-grow: 0 (´por defecto)
+    Si se presenta espacio que puede ser ocupado y se le pone valor de 1 entonces entonces los elementos se alargaran para ocupar el espacio, si se le asigna otro valor a un elemento entonces ese elemento crecera en consecuencia de ese número*/
+
+    /*flex-shrink: 1 (por defecto)
+    Este hace más pequeños los elementos en consecuencia del valor asignado*/
+
+    /*flex-basis
+    Tamaño de los elementos en el eje x*/
+}
+
+.element1 {
+    background-color: crimson;
+    /*align-self: ;
+    Posee los mismos valores que align-items*/
+}
+
+.element2 {
+    background-color: purple;
+}
+
+.element3 {
+    background-color: steelblue;
+}
